@@ -6,8 +6,8 @@ Changes Done in IGVC_2022 :
 A plugin has been created to publish odometry data for base_link for vehicle under igvc_self_drive_description urdf sensors imu.urdf.xacro
 
 
-gazebo>
- plugin name="p3d_base_controllers" filename="libgazebo_ros_p3d.so">
+gazebo
+ plugin name="p3d_base_controllers" filename="libgazebo_ros_p3d.so"
    alwaysOn>true</alwaysOn
    updateRate>50.0</updateRate
    bodyName>base_link</bodyName
@@ -16,8 +16,10 @@ gazebo>
    frameName>world</frameName
    xyzOffsets>0 0 0</xyzOffsets
    rpyOffsets>0 0 0</rpyOffsets
- /plugin>
-/gazebo>
+ /plugin
+/gazebo
+
+** **( < > needs to be added on ends on above code)**
     
  Gaussian Noise has been set all 0 values in gps.urdf.xacro
  
