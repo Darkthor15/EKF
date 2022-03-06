@@ -7,16 +7,27 @@ A plugin has been created to publish odometry data for base_link for vehicle und
 
 
 gazebo
+
  plugin name="p3d_base_controllers" filename="libgazebo_ros_p3d.so"
+ 
    alwaysOn>true</alwaysOn
+   
    updateRate>50.0</updateRate
+   
    bodyName>base_link</bodyName
+   
    topicName>odom</topicName
+   
    gaussianNoise>0</gaussianNoise
+   
    frameName>world</frameName
+   
    xyzOffsets>0 0 0</xyzOffsets
+   
    rpyOffsets>0 0 0</rpyOffsets
+   
  /plugin
+ 
 /gazebo
 
 ** **( < > needs to be added on ends on above code)**
